@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Todo.Domain.Validation;
 
-namespace Todo.Domain.Entities
+namespace Domain.Entities
 {
     sealed class Chore : Entity
     {

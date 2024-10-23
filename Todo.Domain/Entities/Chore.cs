@@ -11,12 +11,14 @@ namespace Domain.Entities
 {
     public class Chore : Entity
     {
-        private int id;
-        private string name;
-        private string description;
-        private DateTime dueDate;
-        private Status status;
-        private User assignedToId;
+        public int Id;
+        public string Name;
+        public string Description;
+        public DateTime DueDate;
+        public Status Status;
+        
+        //FK
+        public int AssignedToId;
 
         private void ValidateDomain(string name, string description, 
             DateTime dueDate, Status status,

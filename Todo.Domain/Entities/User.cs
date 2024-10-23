@@ -8,11 +8,10 @@ namespace Domain.Entities
 {
     public class User : Entity
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public string Email { get; set; }
-        public string Password { get; set; }
-        public DateTimeOffset CreatedAt { get; set; }
-
+        public int Id;
+        public string Name;
+        public string Email;
+        public string Password;
+        public DateTimeOffset CreatedAt;
     }
 }

@@ -11,7 +11,7 @@ namespace Application.Interfaces
     {
         Task<IEnumerable<ChoreDTO>> GetChores();
         Task<ChoreDTO> GetById(int? id);
-        Task<IEnumerable<ChoreDTO>> GetByUserId(int? UserId);
+        Task<IEnumerable<ChoreDTO>> GetAllByUserId(int? UserId);
         Task Add(ChoreDTO chore);
         Task Update(ChoreDTO chore);
         Task Remove(ChoreDTO chore);
